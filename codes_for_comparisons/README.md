@@ -1,4 +1,4 @@
-This folder contains the parity-check matrices of the CSS codes used for comparison against the proposed QD codes.
+This folder contains the parity-check matrices and the meta-check matrices of the CSS codes used for comparison against the proposed QD codes.
 
 The code instances are from the following code families:
 
