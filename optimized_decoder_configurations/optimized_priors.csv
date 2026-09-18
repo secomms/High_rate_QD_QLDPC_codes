@@ -1,0 +1,31 @@
+code_label,parameters,model,ep0,p0,fixed_syndrome_readout_probability,optimization_target,target_status,selection_note;
+"C_{HP2},""[[241,121,3]]"",depolarizing,0.0475,,0,0.001,reached,target FER 1e-3";
+"C_{HP2},""[[241,121,3]]"",PL,0.02,0.03,0.01,0.01,unattainable,minimum measured LER at data epsilon=1e-2";
+"C_{BB2},""[[288,12,18]]"",depolarizing,0.29666667,,0,0.001,reached,target FER 1e-3";
+"C_{BB2},""[[288,12,18]]"",PL,0.15,0.13,0.01,0.01,reached,target LER 1e-2";
+"C_{QC},""[[272,142,8]]"",depolarizing,0.06,,0,0.001,reached,target FER 1e-3";
+"C_{QC},""[[272,142,8]]"",PL,0.025,0.02,0.01,0.01,reached,target LER 1e-2";
+"C_{Bic4},""[[256,130,2]]"",depolarizing,0.03833333,,0,0.01,reached,fallback target FER 1e-2";
+"C_{Bic4},""[[256,130,2]]"",PL,0.0375,0.14,0.01,0.01,reached,target LER 1e-2";
+"C_{Bic3},""[[256,96,8]]"",depolarizing,0.085,,0,0.001,reached,target FER 1e-3";
+"C_{Bic3},""[[256,96,8]]"",PL,0.0375,0.04,0.01,0.01,reached,target LER 1e-2";
+"C_{CPM},""[[276,98,14]]"",depolarizing,0.12,,0,0.001,reached,target FER 1e-3";
+"C_{CPM},""[[276,98,14]]"",PL,0.0375,0.02,0.01,0.01,reached,target LER 1e-2";
+"C_{QD3},""[[256,96,16]]"",depolarizing,0.12,,0,0.001,reached,target FER 1e-3";
+"C_{QD3},""[[256,96,16]]"",PL,0.0875,0.14,0.01,0.01,reached,target LER 1e-2";
+"C_{QD4},""[[256,130,8]]"",depolarizing,0.1,,0,0.001,reached,target FER 1e-3";
+"C_{QD4},""[[256,130,8]]"",PL,0.1,0.1,0.01,0.01,reached,target LER 1e-2";
+"C_{D1},""[[257,121,10]]"",depolarizing,0.1,,0,,reference-validated,user-specified prior"; all 11 reference points inside measured 95% CI
+"C_{D1},""[[257,121,10]]"",PL,0.12,0.085,0.01,0.01,reached,target LER 1e-2";
+"C_{D0},""[[65,27,4]]"",depolarizing,0.1,,0,,reference-checked,user-specified prior"; compared with supplied six-point curve
+"C_{D0},""[[65,27,4]]"",PL,0.15,0.13,0.01,0.01,reached,target LER 1e-2";
+"C_{HP1},""[[65,9,4]]"",depolarizing,0.01375,,0,0.001,reached,target FER 1e-3";
+"C_{HP1},""[[65,9,4]]"",PL,0.05,0.11,0.01,0.01,reached,target LER 1e-2";
+"C_{BB1},""[[72,12,6]]"",depolarizing,0.04,,0,0.001,reached,target FER 1e-3";
+"C_{BB1},""[[72,12,6]]"",PL,0.1,0.11,0.01,0.001,reached,target LER 1e-3";
+"C_{GB},""[[48,6,8]]"",depolarizing,0.15333333,,0,0.001,reached,target FER 1e-3";
+"C_{GB},""[[48,6,8]]"",PL,0.1625,0.1,0.01,0.001,reached,target LER 1e-3";
+"C_{Bic1},""[[64,12,6]]"",depolarizing,0.14,,0,0.001,reached,target FER 1e-3";
+"C_{Bic1},""[[64,12,6]]"",PL,0.05,0.07,0.01,0.01,reached,target LER 1e-2";
+"C_{Bic2},""[[64,18,2]]"",depolarizing,0.035,,0,0.001,selected-for-dense-curve,selected prior used for the dense curve"; target FER 1e-3 was not reached in the bounded search
+"C_{Bic2},""[[64,18,2]]"",PL,0.0375,0.15,0.01,0.01,reached,target LER 1e-2";
