@@ -35,12 +35,15 @@ Each code has its own subdirectory with three files:
   `M_Z H_Z = 0` over GF(2).
 
 The CSV files contain only comma-separated integer matrix entries and no
-header row. For HP_65_9 and HP_125_25, both meta-check matrices have zero rows,
+header row. 
+For HP and Bic codes, both meta-check matrices have zero rows,
 so their `Mx_meta.csv` and `Mz_meta.csv` files are intentionally empty.
 
 | Paper label | Directory | H shape | M_X shape | M_Z shape |
 |---|---|---:|---:|---:|
 | HP1 [[65,9,4]] | `HP_65_9` | 56 x 121 | 0 x 28 | 0 x 28 |
+| Bic1 [[64,12,6]] | `Bic_64_12` | ? x ? | 0 x 26 | 0 x 26 |
+| Bic2 [[64,18,2]] | `Bic_64_18` | ? x ? | 0 x 23 | 0 x 23 |
 | GB1 [[48,6,8]] | `GB_48_6` | 54 x 96 | 3 x 24 | 3 x 24 |
 | BB1 [[72,12,6]] | `BB_72_12` | 84 x 144 | 6 x 36 | 6 x 36 |
 | HP2 [[241,121,3]] | `HP_241_121` | 120 x 361 | 0 x 60 | 0 x 60 |
