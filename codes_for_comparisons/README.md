@@ -4,11 +4,15 @@ The code instances are from the following code families:
 
   - Hypergraph Product (HP) codes.
 
+  - Bicycle (Bic) codes.
+
   - Quasi-Cyclic (QC) codes.
   
   - Generalized Bicycle (GB) codes.
 
   - Bivariate Bicycle (BB) codes.
+
+  - Dyadic CAMEL codes.
 
 Each code has its own subdirectory with three files:
 
