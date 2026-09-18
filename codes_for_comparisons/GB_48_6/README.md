@@ -1,1 +1,1 @@
-This folder contains data for the code GB_1[[48,6,8]].
+This folder contains data for the code GB1[[48,6,8]].
