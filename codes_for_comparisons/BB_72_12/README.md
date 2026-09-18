@@ -1,1 +1,1 @@
-This folder contains data for the code BB_1[[72,12,6]].
+This folder contains data for the code BB1[[72,12,6]].
